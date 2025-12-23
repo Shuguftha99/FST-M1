@@ -46,9 +46,9 @@ public class Activity6 {
 
 	public static void main(String[] args) throws InterruptedException {
 		Plane plane=new Plane(10);
-		plane.onboard("sravani");
-		plane.onboard("vivek");
-		plane.onboard("syamala");
+		plane.onboard("Shiva");
+		plane.onboard("Jack");
+		plane.onboard("Shankar");
 		System.out.println("last time take off is " +plane.takeoff());
 		System.out.println("people on the plane " +plane.getPassengers());
 		Thread.sleep(5000);
@@ -58,3 +58,4 @@ public class Activity6 {
 	}
 
 }
+
