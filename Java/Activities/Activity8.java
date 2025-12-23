@@ -2,7 +2,7 @@ package Activities;
 
 
 class CustomException extends Exception {
-private String message = "Sravani";
+private String message = "Shiva";
 
 public CustomException(String message) {
     this.message = message;
@@ -34,4 +34,5 @@ public static void exceptionTest(String str) throws CustomException {
         System.out.println(str);
     }
 }
+
 }
