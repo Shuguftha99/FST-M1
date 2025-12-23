@@ -55,6 +55,5 @@ def test_division():
 	quot = num1 / num2
 
 	# Assertion
-
-	assert quot == 20
+    assert quot == 20
 	
