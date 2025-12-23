@@ -19,7 +19,7 @@ public class Activity20 {
 		Alert propmtAlert = driver.switchTo().alert();
 		System.out.println(propmtAlert.getText());
 //		Close the alert once with OK.
-		propmtAlert.sendKeys("sravani");
+		propmtAlert.sendKeys("Retail");
 		Thread.sleep(5000);
 		propmtAlert.accept();
 		// print the confirmation message after clicking
@@ -30,3 +30,4 @@ public class Activity20 {
 	}
 
 }
+
